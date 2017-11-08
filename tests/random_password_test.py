@@ -6,8 +6,8 @@ def test_defaults():
 
 
 def test_with_length():
-    l = 96
-    assert len(random_password(length=l)) is l
+    length = 96
+    assert len(random_password(length=length)) == length
 
 
 def test_characters():
